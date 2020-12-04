@@ -1,0 +1,218 @@
+   <html><head><link crossorigin="anonymous" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  
+
+  
+  body{
+    background-color:#1c559c !important;
+    color:#fff !important;
+    -webkit-animation-name: bodycolor;
+    animation-name: bodycolor;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes bodycolor{
+  0%  {background:#45A;}
+  20% {background:#50A;}
+  30% {background:#60A;}
+  40% {background:#70A;}
+}
+
+@-webkit-keyframes bodycolor{
+  0%  {background:#65E;}
+  20% {background:#75E;}
+  30% {background:#85E;}
+  40% {background:#95E;}
+}
+  
+  
+  .bot-name{
+  color:#fff;
+      -webkit-animation-name: botname;
+    animation-name: botname;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes botname{
+  0%  {color:#66BB6A;}
+  20% {color:#26A69A;}
+  30% {color:#26C6DA;}
+  40% {color:#5C6BC0;}
+}
+
+@-webkit-keyframesbotname{
+  0%  {color:#66BB6A;}
+  20% {color:#26A69A;}
+  30% {color:#26C6DA;}
+  40% {color:#5C6BC0;}
+}
+  
+  
+  
+  .botpagebutton{
+   background:rgba(0, 0, 0, 0.28) !important;
+   color: #fff;
+    }
+  
+  .votebutton{
+     background:rgba(0, 0, 0, 0.27) !important;
+  }
+  
+  #menu{
+  background:rgba(0, 0, 0, 0.27) !important;
+  }
+
+  .menu{
+  background:rgba(0, 0, 0, 0.0) !important;
+  }
+  
+  .bot-description{
+    color:#fff !important;
+    }
+   
+   .lib a{
+   color:#fff !important;
+   }
+   
+   .lib a:hover{
+   color:#fff !important;
+   }
+   
+   .bot-name{
+   color:#fff !important;
+   }
+   
+   .status.purple {
+    color: #ffffff!important;
+}
+
+#delete {
+    color: #fff!important;
+}
+
+#bot-details-page .btn-like{
+background-color:#fff;
+}
+
+#bot-details-page .bot-img {
+    margin-top: 10px !important;
+    margin-bottom: 0px !important;
+    -webkit-animation-name: float-landing;
+    animation-name: float-landing;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    box-shadow: none !important;
+}
+
+.bot-img{
+    box-shadow: none !important;
+}
+
+.bot-img img {
+    border-radius: 50%;
+}
+
+ @-webkit-keyframes float-landing {
+    0% {-webkit-transform: translate3d(0, -20px, 0);transform: translate3d(0, -20px, 0)}
+    to {-webkit-transform: translate3d(0, 20px, 0);                transform: translate3d(0, 20px, 0)}
+}
+
+@keyframes float-landing {
+    0% {transform: translate3d(0, -20px, 0);transform: translate3d(0, -20px, 0)}
+    to { transform: translate3d(0, 20px, 0);                transform: translate3d(0, 20px, 0)}
+}
+ 
+ 
+ .longdescription .content{
+ box-shadow:none !important;
+ background:none !important;
+ }
+  
+  .bot-btnss a{
+  line-height: 0px !important;
+    padding: 19px 10px;
+    background: #2675d8 !important;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+    text-decoration:none !important;
+    }
+    
+    #websitelink{
+    background: #2675f8 !important;
+    }
+    
+    #delete {
+    background: #e02727 !important;
+}
+  
+      #edit {
+    background: #1cb560 !important;
+}
+  
+      #support {
+    background: #cc8419 !important;
+}
+
+#createdby a {
+    color:#444;
+    text-decoration: none !important;
+}
+
+#bot-details-page .btn-like:after {
+    padding-right: 5px;
+    content: " OY";
+    transition: all 0.8s;
+    white-space: pre;
+    border-radius: 5px;
+}
+
+  </style>
+  
+</head><body><div class="card text-white bg-danger mb-3" style="max-width: 100%;">
+ <div class="card-header">Wonders Bot | w!yardım</div>
+  <div class="card-body">
+    <h5 class="card-title" style="color:#fff">Türkçe Discord botu</h5>
+ &nbsp; &nbsp;<p class="card-text">Sürekli Güncellenen Botumuz Yeni Özelliklere Sahip Türkçe Discord Botu. Örnek Komutlar: w!yardım - w!davet - w!koruma - w!diğer - w!bağış</p>
+  </div>
+</div>
+<div class="card text-white bg-primary mb-3" style="max-width: 100%;">
+ &nbsp;<div class="card-header">Funny Command &nbsp;| w!diğer</div>
+  <div class="card-body">
+    <h5 class="car kid-title" style="color:#fff">Eğlence Komutları</h5>
+ &nbsp; &nbsp;<p class="card-text">Sunucunuzdaki üyeleri eğlendirmeye mi çalışıyorsunuz? Wonders tam sana göre w!davet yaz ve botu sunucuna ekle ardından herhangi bir kanla w!diğer yaz ve işte karşında eğlence komutları.</p>
+  </div>
+</div>
+<div class="card text-white bg-primary mb-3" style="max-width: 100%;">
+ &nbsp;<div class="card-header">Moderation Command | w!yetkili</div>
+  <div class="card-body">
+    <h5 class="car kid-title" style="color:#fff">Moderasyon Komutları</h5>
+ &nbsp; &nbsp;<p class="card-text">Moderasyon Komutlarını Kullanarak Sunucunu Daha İyi Bir Hale Getirebilirsin. Örneğin w!yetkili yazarak tüm moderasyon komutlarını görebilirsin.</p>
+  </div>
+</div>
+<div class="card text-white bg-primary mb-3" style="max-width: 100%;">
+ &nbsp;<div class="card-header">Guard Command &nbsp;| w!koruma</div>
+  <div class="card-body">
+    <h5 class="car kid-title" style="color:#fff">Guard Komutları</h5>
+ &nbsp; &nbsp;<p class="card-text">Sunucunuzu güven altına almak isterseniz wondersin koruma komutlarını kullanabilirsiniz! Örneğin; w!koruma - w!spam Gibi..</p>
+  </div>
+</div>
+</body></html>
